@@ -1,0 +1,75 @@
+.red-navbar {
+    background-color: #f10869;
+}
+
+.jumbotron-image {
+    background-image: url('img/bnn.jpg');
+    height: calc(100vh - 56px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+.pd-auto{
+    padding: 20px;
+}
+
+.card-info{
+    overflow: hidden;
+}
+
+.card-info::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #f10869;
+}
+
+.times{
+    font-size: 12px;
+}
+
+.fixed-right-bottom{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.btn-wa {
+    font-size: 24px;
+    height: 55px !important;
+    width: 55px !important;
+    border-radius: 50px;
+}
+
+.card-f{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 60px auto;
+    text-decoration: none;
+    border: 1px dotted #333333;
+    border-radius:4px; 
+}
+
+.card-f p{
+  margin: 0;
+
+
+.card-f h5{
+  margin: 0;
+}
+
+.card-f > div:nth-child(1){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
